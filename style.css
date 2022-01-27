@@ -1,0 +1,89 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Nunito|Montserrat");
+
+html, body {
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 1em;
+  background-color:rgb(254, 250, 254);
+  margin: 0;
+}
+
+h1, h2 {
+  color: rgb(84, 87, 87);
+  font-family: 'Nunito', serif;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px 16px 16px;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color:rgb(153, 97, 222);
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+.project-card {
+  background-color: rgb(244, 241, 241);
+  width: 300px;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+  margin: 16px;
+}
+
+
+.intro {
+  padding: 40px;
+  text-align: center;
+}
+
+.footer {
+  padding-top: 24px;
+   text-align: center;
+   margin-top: 56px;
+   background-color: rgb(244, 241, 241);
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
